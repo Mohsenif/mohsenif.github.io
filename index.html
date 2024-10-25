@@ -149,6 +149,22 @@
         a:hover {
             color: #45a247;
         }
+        .skill-circle {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        .skill-circle.full {
+            background-color: #45a247;
+        }
+        .skill-circle.half {
+            background-color: #a9dfbf;
+        }
+        .skill-circle.empty {
+            background-color: #e0e0e0;
+        }
     </style>
 </head>
 <body>
@@ -169,7 +185,7 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a graduate reservoir engineer petroleum engineer, with a passion for contributing to a cleaner and more efficient future for our global energy systems. Safety, sustainability, and teamwork are my top priorities, and I am always enthusiastic about the latest developments in technology.</p>
+            <p>I am a petroleum engineer set to graduate in June 2024, with a passion for contributing to a cleaner and more efficient future for our global energy systems. Safety, sustainability, and teamwork are my top priorities, and I am always enthusiastic about the latest developments in technology.</p>
         </section>
 
         <section id="skills">
@@ -197,17 +213,15 @@
             </ul>
             <h3>Languages</h3>
             <ul>
-                <li>English</li>
-                <li>Persian</li>
-                <li>Turkish</li>
-                <li>Norwegian</li>
+                <li>English <span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span></li>
+                <li>Persian <span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span></li>
+                <li>Turkish <span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle half"></span><span class="skill-circle empty"></span></li>
+                <li>Norwegian <span class="skill-circle full"></span><span class="skill-circle full"></span><span class="skill-circle half"></span><span class="skill-circle empty"></span><span class="skill-circle empty"></span></li>
             </ul>
         </section>
 
         <section id="experience">
             <h2>Experience</h2>
-            <h3>Graduate Reservoir Engineer - Three60 Energy Norway (Apr 2024 - Present)</h3>
-            <p>Helping Reservoir and Production discipline colleauges with different projects and studies.</p>
             <h3>Teaching Assistant - NTNU, Department of Geoscience and Petroleum (Sep 2023 - Dec 2023)</h3>
             <p>Assisted in the course TPG4245 - Production Wells, providing guidance to students and supporting their understanding of key petroleum engineering concepts.</p>
             <h3>Summer Intern - SINTEF Industry, Trondheim (Jul 2023 - Aug 2023)</h3>
