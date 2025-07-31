@@ -10,6 +10,56 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         /* Enhanced professional styles */
+        .hero {
+     background: url('2050.png') center/cover no-repeat;;
+    color: #000000;
+    padding: 60px 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.hero-text {
+    flex: 1 1 500px;
+}
+
+.hero-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 160px;
+    height: auto;
+    border-radius: 12px; /* removes circle, keeps soft corners */
+    border: 5px solid #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
@@ -238,11 +288,18 @@
 </script>
 </head>
 <body>
-    <header>
-        <h1>Alireza Mohseni</h1>
-        <p>Reservoir Engineer passionate about innovative energy solutions, committed to optimizing reservoir performance and contributing to a sustainable future.</p>
-        <img src="your-image.jpg" alt="Alireza Mohseni">
-    </header>
+    <header class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Alireza Mohseni</h1>
+      <p>Graduate Reservoir Engineer</p>
+    </div>
+    <div class="hero-image">
+      <img src="your-image.jpg" alt="Alireza Mohseni">
+    </div>
+  </div>
+</header>
+
 
     <nav>
         <a href="#">Home</a>
