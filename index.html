@@ -81,7 +81,7 @@
             margin-bottom: 15px;
         }
         h3 {
-            color: #45a247;
+            color: hsl(0, 0%, 0%);
             margin-top: 25px;
         }
         ul {
@@ -176,6 +176,56 @@
             50% { transform: translateY(-10px); }
             100% { transform: translateY(0); }
         }
+
+
+        .experience-entry, .education-entry {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 5px;
+        }
+
+        .experience-entry img,
+        .education-entry img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .entry-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 5px;
+        }
+
+        .entry-header img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .entry-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.95rem;
+            color: #555;
+            margin-top: 5px;
+            margin-bottom: 1px;
+        }
+
+        .entry-meta i {
+            margin-right: 6px;
+            color: #45a247;
+            margin-bottom: 5px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -235,7 +285,21 @@
 
         <section id="experience">
             <h2>Experience</h2>
+<<<<<<< HEAD
+            <div class="experience-entry">
+            <div class="entry-header">
+                <img src="T60.png" alt="Three60 Energy Logo">
+                <h3>Graduate Reservoir Engineer - Three60 Energy </h3>
+                <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Apr 2024 – Present</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Stavanger</span>
+                </div>
+                </div>
+            </div>
+            </div>
+=======
             <h3>Graduate Reservoir Engineer - Three60 Energy (Apr 2024 - Present)</h3>
+>>>>>>> 6236d4d57b380fc9e40798a38a1c269869c9e230
             <p>Supporting reservoir and production disciplines by contributing to various projects and studies. Involved in key tasks such as model generation, data analysis, and developing technical tools to assist in reservoir performance optimization.</p>
             <ul>
                 <li>Currently developing an applet for optimized well clean-up planning, leveraging data analytics and programming to enhance operational efficiency in wellsite processes.</li>
@@ -243,24 +307,87 @@
                 <li>Worked on a produced water reinjection project for a client, conducting a comprehensive literature review and developing an applet for large data handling, which was subsequently used as a diagnostic tool.</li>
                 <li>Developed a model for the SPE 11 case using the Brilliant software, identifying and resolving software errors.</li>
             </ul>
-            <h3>Teaching Assistant - NTNU, Department of Geoscience and Petroleum (Sep 2023 - Dec 2023)</h3>
+            </div>
+            </div>
+            <div class="entry-header">
+                <img src="NTNU.png" alt="NTNU Logo">
+                <h3>Teaching Assistant - NTNU, Department of Geoscience and Petroleum </h3>
+                <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Sep 2023 - Dec 2023</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Trondheim</span>
+                </div>
+
+            </div>
             <p>Assisted in the course TPG4245 - Production Wells, providing guidance to students and supporting their understanding of key petroleum engineering concepts.</p>
-            <h3>Summer Intern - SINTEF Industry, Trondheim (Jul 2023 - Aug 2023)</h3>
+            
+
+            <div class="entry-header">
+                <img src="Sintef.jpg" alt="Sintef Logo">
+            
+            <h3>Summer Intern - SINTEF Industry </h3>
+                    <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Jul 2023 - Aug 2023</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Trondheim</span>
+                </div>
+                </div>
+            </div>
             <p>Worked on establishing the Aurora Model on Pflotran and investigating CO<sub>2</sub> plume shape.</p>
-            <h3>Summer Intern - Research Institute of Petroleum Industry, Tehran (Jun 2017 - Sep 2017)</h3>
+            <div class="entry-header">
+                <img src="RIPI.jpg" alt="RIPI Logo">            
+            <h3>Summer Intern - Research Institute of Petroleum Industry</h3>
+                    <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Jun 2017 - Sep 2017</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Tehran</span>
+                </div>
+                </div>
+            </div>
+            
+        
             <p>Conducted experiments in Core Analysis and PVT as part of a research team.</p>
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            <h3>MSc in Petroleum Engineering - NTNU, Norway (2022 - 2024)</h3>
+            <div class="entry-header">
+                <img src="NTNU.png" alt="NTNU Logo">
+            <h3>MSc in Petroleum Engineering - NTNU</h3>
+                    <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Aug 2022 - Jun 2024</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Trondheim</span>
+                </div>
+                </div>
+            </div>
             Thesis: <a href="your-thesis.pdf" target="_blank">Exploring the Transferability of Optimization Methods from Production to Storage: A Case Study of CO<sub>2</sub> Injection at Smeaheia</a> <br> Specialization Project: <a href="Specialization_Project.pdf" target="_blank">Exploring the Impact of Thermal
                 Considerations on CO<sub>2</sub> Plume Shape and
                 Sensitivity Studies</a> <br> Average Grade: A</p>
-            <h3>BSc in Petroleum Engineering - Amirkabir University of Technology, Iran (2013 - 2017)</h3>
+
+            <div class="entry-header">
+                <img src="tbz.png" alt="TBZ Logo">
+            <h3>Master Courses in Chemical Engineering - University of Tabriz</h3>
+                                <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Jul 2021 - Jun 2022</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Tabriz</span>
+                </div>
+                </div>
+            </div>
+            <p>Completed master courses in chemical engineering focusing on environmental engineering. <br>Average Grade: A</p>
+
+
+
+
+            <div class="entry-header">
+                <img src="aut.png" alt="AUT Logo">
+            <h3>BSc in Petroleum Engineering - Amirkabir University of Technology</h3>
+                                <div class="entry-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Aug 2013 - Jun 2017</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Tehran</span>
+                </div>
+                </div>
+            </div>
             <p>Thesis: Study of Effect of Acid Concentration and Contact Time on Fracture Width and Length in Acid Fracturing. <br>Average Grade: A</p>
         </section>
-
+            
+            
         <section id="contact">
             <h2>Contact</h2>
             <div class="contact-info">
@@ -275,7 +402,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Alireza Mohseni. All rights reserved.</p>
+        <p>&copy; 2025 Alireza Mohseni. All rights reserved.</p>
         <div>
             <a href="https://www.linkedin.com/in/alirezamohsenif"><i class="fab fa-linkedin fa-2x"></i></a>
             <a href="mailto:alireza.mohsenifesegandis@three60energy.com"><i class="fas fa-envelope fa-2x"></i></a>
